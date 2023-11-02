@@ -40,7 +40,7 @@
                 <&macro_tap>,
                 <&kp DELETE>,
                 <&macro_release>,
-                <&kp LEFT_SHIFT &kp LEFT_ALT>;
+                <&kp LCTRL &kp LALT>;
 
             label = "MACRO_2";
         };
