@@ -69,3 +69,6 @@
                                     &kp LGUI     &trans       &kp SPACE      &kp RET  &kp RALT  &trans
                         >;
                 };
+
+        };
+};
