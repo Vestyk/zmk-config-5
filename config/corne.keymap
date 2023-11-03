@@ -22,7 +22,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD0";
             #binding-cells = <0>;
-            bindings = <&kp M>, <&kp RBKT>, <&kp TILDE>;
+            bindings = <&kp M>, <&kp RBKT>;
         };
     };
 
@@ -82,7 +82,7 @@
             //                    | GUI | LWR | SPC |   | SPC | LT1_ENT  | LT2_BKSP |
 
             bindings = <
-&kp ESC        &kp Q  &kp W  &kp E     &kp R         &kp T        &kp Y      &kp U          &kp I                 &kp O    &kp P     &kp LBKT
+&kp TILDE      &kp Q  &kp W  &kp E     &kp R         &kp T        &kp Y      &kp U          &kp I                 &kp O    &kp P     &kp LBKT
 &mt LCTRL TAB  &kp A  &kp S  &kp D     &mt LSHIFT F  &kp G        &kp H      &mt LSHIFT J   &kp K                 &kp L    &kp SEMI  &kp SQT
 &kp LSHFT      &kp Z  &kp X  &kp C     &kp V         &kp B        &kp N      &td0           &kp COMMA             &kp DOT  &kp FSLH  &mt LALT DEL
                              &kp LGUI  &mo LOWER     &kp SPACE    &kp SPACE  &lt RAISE RET  &lt ADJUST BACKSPACE
