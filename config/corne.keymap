@@ -82,7 +82,7 @@
             //                    | GUI | LWR | SPC |   | SPC | LT1_ENT  | LT2_BKSP |
 
             bindings = <
-&kp TILDE      &kp Q  &kp W  &kp E     &kp R         &kp T        &kp Y      &kp U          &kp I                 &kp O    &kp P     &kp LBKT
+&gresc         &kp Q  &kp W  &kp E     &kp R         &kp T        &kp Y      &kp U          &kp I                 &kp O    &kp P     &kp LBKT
 &mt LCTRL TAB  &kp A  &kp S  &kp D     &mt LSHIFT F  &kp G        &kp H      &mt LSHIFT J   &kp K                 &kp L    &kp SEMI  &kp SQT
 &kp LSHFT      &kp Z  &kp X  &kp C     &kp V         &kp B        &kp N      &td0           &kp COMMA             &kp DOT  &kp FSLH  &mt LALT DEL
                              &kp LGUI  &mo LOWER     &kp SPACE    &kp SPACE  &lt RAISE RET  &lt ADJUST BACKSPACE
@@ -97,9 +97,9 @@
             //                    | GUI |     | SPC |   | SPC |     | BKSP |
 
             bindings = <
-&kp TAB    &kp N1       &kp N2     &kp N3     &kp N4                    &kp N5       &kp N6     &kp N7     &kp N8           &kp N9     &kp N0    &kp DEL
-&kp LCTRL  &kp EXCL     &kp AT     &kp HASH   &mt LSHIFT DOLLAR         &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &none
-&kp LSHFT  &macro_prsr  &kp PG_UP  &kp PG_DN  &kp LS(NON_US_BACKSLASH)  &kp MINUS    &kp PLUS   &kp EQUAL  &kp UNDER        &kt TILDE  &trans    &none
+&kp TAB    &kp N1       &kp N2     &kp N3     &kp N4                    &kp N5       &kp N6     &kp N7     &kp N8           &kp N9    &kp N0    &kp DEL
+&kp LCTRL  &kp EXCL     &kp AT     &kp HASH   &mt LSHIFT DOLLAR         &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &trans
+&kp LSHFT  &macro_prsr  &kp PG_UP  &kp PG_DN  &kp LS(NON_US_BACKSLASH)  &kp MINUS    &kp PLUS   &kp EQUAL  &kp UNDER        &trans    &trans    &trans
                                    &kp LGUI   &none                     &kp SPACE    &kp SPACE  &trans     &kp BACKSPACE
             >;
         };
